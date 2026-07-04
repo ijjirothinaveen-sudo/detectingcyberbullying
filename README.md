@@ -13,7 +13,6 @@ This project introduces an automated, high-accuracy Natural Language Processing 
 ### High-Dimensional Feature Spaces: 
 - Text analysis naturally creates massive, complex feature vectors that demand high-performance classifiers.
 
-## To solve these issues, the project implements a unique pipeline:
 ### Modified TF-IDF (MTF-IDF): 
 - Instead of standard Term Frequency-Inverse Document Frequency, the authors engineered a modified version that assigns disproportionately higher weights to rare, toxic keywords.
 - This amplifies the signal of bullying phrases and balances out the data disparity.
@@ -39,3 +38,8 @@ The proposed MTF-IDF-SVM framework was benchmarked against three industry-standa
 ## Conclusion & Future Scope:
 
 The pairing of MTF-IDF and SVM successfully yields a highly reliable tool immediately applicable for real-time content moderation. Moving forward, the authors identify several areas for future development, including upgrading the framework to Deep Learning architectures (such as BERT or LSTM networks) to better catch sarcasm, extending the system to support multi-lingual analysis, and integrating a sentiment analysis layer to score the severity of negative content rather than just utilizing binary classification.
+
+## Documentation
+- [Project Report](docs/Team6.pdf)
+- [Presentation Slides](docs/Team6.pptx)
+
