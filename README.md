@@ -41,6 +41,3 @@ The pairing of MTF-IDF and SVM successfully yields a highly reliable tool immedi
 - Upgrading the framework to Deep Learning architectures (such as BERT or LSTM networks) to better catch sarcasm.
 - Extending the system to support multi-lingual analysis.
 - Integrating a sentiment analysis layer to score the severity of negative content rather than just utilizing binary classification.
-
-
-
