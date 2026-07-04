@@ -5,7 +5,7 @@ This project introduces an automated, high-accuracy Natural Language Processing 
 
 ## Key Technical Challenges & Core Innovations
 
-## The team targeted two primary technical hurdles inherent to toxicity detection:  
+### The team targeted two primary technical hurdles inherent to toxicity detection:  
 ### Class Imbalance: 
 - In real-world toxicity datasets, cyberbullying posts represent a small minority (in this dataset, safe posts comprised 65% while cyberbullying made up 35%).
 - Conventional models often become biased toward the majority class under these conditions.
