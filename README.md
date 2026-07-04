@@ -6,19 +6,19 @@ This project introduces an automated, high-accuracy Natural Language Processing 
 ## Key Technical Challenges & Core Innovations
 
 ## The team targeted two primary technical hurdles inherent to toxicity detection:  
-### - Class Imbalance: 
+### Class Imbalance: 
 - In real-world toxicity datasets, cyberbullying posts represent a small minority (in this dataset, safe posts comprised 65% while cyberbullying made up 35%).
 - Conventional models often become biased toward the majority class under these conditions.
   
-### - High-Dimensional Feature Spaces: 
+### High-Dimensional Feature Spaces: 
 - Text analysis naturally creates massive, complex feature vectors that demand high-performance classifiers.
 
 ## To solve these issues, the project implements a unique pipeline:
-### - Modified TF-IDF (MTF-IDF): 
+### Modified TF-IDF (MTF-IDF): 
 - Instead of standard Term Frequency-Inverse Document Frequency, the authors engineered a modified version that assigns disproportionately higher weights to rare, toxic keywords.
 - This amplifies the signal of bullying phrases and balances out the data disparity.
   
-### - Support Vector Machine (SVM): 
+### Support Vector Machine (SVM): 
 - The extracted features are fed into an SVM classifier, chosen for its exceptional ability to manage high-dimensional spaces by finding the optimal separating hyperplane between classes.
 
 ## Architecture, Tools, and Technologies
