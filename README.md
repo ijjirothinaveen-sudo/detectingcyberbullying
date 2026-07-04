@@ -15,15 +15,6 @@ Key Technical Challenges & Core Innovations
   - Modified TF-IDF (MTF-IDF): Instead of standard Term Frequency-Inverse Document Frequency, the authors engineered a modified version that assigns disproportionately higher weights to rare, toxic keywords. This amplifies the signal of bullying phrases and balances out the data disparity.
   - Support Vector Machine (SVM): The extracted features are fed into an SVM classifier, chosen for its exceptional ability to manage high-dimensional spaces by finding the optimal separating hyperplane between classes.
 
-# Architecture, Tools, and Technologies
-
-- The project is built as a full-stack web application split into two primary layers: 
-- | **Layer**   | **Technologies Used**         | **Purpose**                    |
-- | ----------  | ----------------------------- | ------------------------------ |
-- | Frontend    | React, Tailwind CSS, Chart.js | Interactive UI & charts        |
-- | Backend     | Python, Flask, Flask‑CORS     | REST API & server logic        |
-- | ML/NLP Core | Scikit‑learn, NLTK            | Preprocessing & classification |
-
 # Results & Performance:
 
 The proposed MTF-IDF-SVM framework was benchmarked against three industry-standard baselines: Naive Bayes, Random Forest, and Logistic Regression. The proposed model significantly outperformed the competition, achieving the following metrics: 
