@@ -18,11 +18,11 @@ Key Technical Challenges & Core Innovations
 # Architecture, Tools, and Technologies
 
 - The project is built as a full-stack web application split into two primary layers: 
-- | **Layer**   | **Technologies Used**        | **Purpose**                    |
-- | ----------  | -----------------------------| ------------------------------ |
-- | Frontend    | React, Tailwind CSS, Chart.js| Interactive UI & charts        |
-- | Backend     | Python, Flask, Flask‑CORS    | REST API & server logic        |
-- | ML/NLP Core | Scikit‑learn, NLTK           | Preprocessing & classification |
+- | **Layer**   | **Technologies Used**         | **Purpose**                    |
+- | ----------  | ----------------------------- | ------------------------------ |
+- | Frontend    | React, Tailwind CSS, Chart.js | Interactive UI & charts        |
+- | Backend     | Python, Flask, Flask‑CORS     | REST API & server logic        |
+- | ML/NLP Core | Scikit‑learn, NLTK            | Preprocessing & classification |
 
 # Results & Performance:
 
