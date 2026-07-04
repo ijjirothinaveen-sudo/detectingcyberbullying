@@ -42,11 +42,5 @@ The pairing of MTF-IDF and SVM successfully yields a highly reliable tool immedi
 - Extending the system to support multi-lingual analysis.
 - Integrating a sentiment analysis layer to score the severity of negative content rather than just utilizing binary classification.
 
-## Documentation
-- [Project Report](Cyberbullying-Detection-NL.pdf)
-- [Presentation Slides](Team6.pptx)
 
-## Documentation
-- [Project Report](docs/Cyberbullying-Detection-NLP.pdf)
-- [Presentation Slides](docs/Team6.pptx)
 
